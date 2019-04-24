@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 body {
-  background: linear-gradient(90deg, #D3D3D3, #646464);
+  background: linear-gradient(90deg, #497181, #4f6d7a);
   font-family: "Source Sans Pro", sans-serif;
 }
 header {
@@ -135,7 +135,7 @@ header {
   justify-content: space-around;
   justify-content: space-between;
   width: 100%;
-  border-bottom: 1px solid #646464;
+  border-bottom: 1px solid #e89980;
 }
 header nav {
   margin: 30px;
@@ -143,39 +143,42 @@ header nav {
 header a {
   margin: 0px 50px;
   text-decoration: none;
-  color: #646464;
+  color: #e89980;
 }
 header h1 {
   font-weight: bold;
   font-size: 30px;
-  color: #646464;
+  color: #e89980;
   margin: 20px;
 }
 header .btn {
-  background-color: #646464;
+  background-color: #e89980;
   color: #D3D3D3;
   border: 0px solid #646464;
   border-radius: 9%;
 }
 header .btn:hover {
   background-color: #D3D3D3;
-  color: #646464;
+  color: #e89980;
+}
+header a:hover {
+  color: #D3D3D3;
 }
 .content {
   display: flex;
 }
 .content h2 {
-  color: #646464;
+  color: #e89980;
   font-size: 20px;
   margin-bottom: 20px;
 }
 .content p {
-  color: #646464;
+  color: #e89980;
 }
 .content .sub-content {
   display: flex;
   flex-direction: column;
-  border-right: 1px dashed #646464;
+  border-right: 1px dashed #e89980;
   margin: 10px;
   width: 49%;
 }
