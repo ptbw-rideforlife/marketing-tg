@@ -126,6 +126,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.header {
+body {
+  background: linear-gradient(90deg, lightgray, #646464);
+  font-family: "Source Sans Pro", sans-serif;
+}
+header {
   display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+}
+header nav {
+  margin: 30px;
+}
+header a {
+  margin: 0px 50px;
+  text-decoration: none;
+  color: #646464;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #646464;
+  margin: 20px;
+}
+header .btn {
+  color: #646464;
+  background-color: beige;
+  border: 0px solid;
 }
