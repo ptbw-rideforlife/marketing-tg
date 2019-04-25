@@ -134,7 +134,6 @@ body {
   body {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
   }
 }
 @media (max-width: 500px) {
@@ -153,7 +152,6 @@ header {
   header {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
   }
 }
 header nav {
@@ -163,7 +161,6 @@ header nav {
   header nav {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
   }
 }
 header a {
@@ -175,7 +172,6 @@ header a {
   header a {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
   }
 }
 header h1 {
@@ -204,7 +200,6 @@ header a:hover {
   .content {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
   }
 }
 @media (max-width: 500px) {
@@ -231,7 +226,6 @@ header a:hover {
   .content .sub-content {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
   }
 }
 @media (max-width: 500px) {
