@@ -130,6 +130,17 @@ body {
   background: linear-gradient(90deg, #497181, #4f6d7a);
   font-family: "Source Sans Pro", sans-serif;
 }
+@media screen and (max-width: 500px) {
+  body {
+    display: flex;
+    direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+}
 header {
   display: flex;
   justify-content: space-around;
@@ -137,13 +148,31 @@ header {
   width: 100%;
   border-bottom: 1px solid #e89980;
 }
+@media screen and (max-width: 500px) {
+  header {
+    display: flex;
+    direction: column;
+  }
+}
 header nav {
   margin: 30px;
+}
+@media screen and (max-width: 500px) {
+  header nav {
+    display: flex;
+    direction: column;
+  }
 }
 header a {
   margin: 0px 50px;
   text-decoration: none;
   color: #e89980;
+}
+@media screen and (max-width: 500px) {
+  header a {
+    display: flex;
+    direction: column;
+  }
 }
 header h1 {
   font-weight: bold;
@@ -167,6 +196,17 @@ header a:hover {
 .content {
   display: flex;
 }
+@media screen and (max-width: 500px) {
+  .content {
+    display: flex;
+    direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content {
+    width: 100%;
+  }
+}
 .content h2 {
   color: #e89980;
   font-size: 20px;
@@ -181,4 +221,35 @@ header a:hover {
   border-right: 1px dashed #e89980;
   margin: 10px;
   width: 49%;
+}
+@media screen and (max-width: 500px) {
+  .content .sub-content {
+    display: flex;
+    direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content .sub-content {
+    width: 100%;
+  }
+}
+.content .sub-content .btn {
+  background-color: #e89980;
+  color: #D3D3D3;
+  border: 0px solid #646464;
+  border-radius: 9%;
+  padding: 10px;
+  width: 150px;
+  margin: 15px 80px;
+}
+.content .sub-content .btn:hover {
+  background-color: #D3D3D3;
+  color: #e89980;
+}
+footer {
+  border-top: 1px solid #e89980;
+  color: #e89980;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
