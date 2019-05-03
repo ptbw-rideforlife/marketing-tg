@@ -1,7 +1,7 @@
 .content {
     display: flex;
     .flex-media(flex, column);
-    .media-width(100%);
+    .media-width(97%);
 
     h2 {
         color: #e89980;
@@ -11,6 +11,8 @@
 
     p {
         color: #e89980;
+        .media-width(90%);
+        font-weight: lighter;
     }
 
     .sub-content {
@@ -37,4 +39,10 @@
             color: #e89980;
         }
     }
+}
+.img-cont{
+    .media-width(90%);
+}
+.inv-cont{
+    .flex-media(flex, column-reverse);
 }
