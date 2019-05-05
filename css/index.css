@@ -165,6 +165,10 @@ body {
     width: 100%;
   }
 }
+body h2 {
+  color: #e89980;
+  font-size: 20px;
+}
 header {
   display: flex;
   justify-content: space-around;
@@ -332,4 +336,29 @@ footer {
   display: flex;
   justify-content: center;
   padding: 20px;
+}
+.devs h2 {
+  display: flex;
+  justify-content: center;
+}
+.content .text-content {
+  width: 700px;
+  height: 300px;
+}
+.content .sub-content {
+  display: flex;
+  width: 700px;
+  height: 300px;
+}
+.content .sub-content h3 {
+  font-size: 18px;
+  justify-content: center;
+}
+.content .sub-content h4 {
+  font-size: 16px;
+  color: #e89980;
+}
+.content .sub-content img {
+  width: 400px;
+  height: 300px;
 }
