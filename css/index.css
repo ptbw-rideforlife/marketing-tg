@@ -285,7 +285,7 @@ header a:hover {
 }
 @media (max-width: 500px) {
   .content p {
-    width: 90%;
+    width: 49%;
   }
 }
 .content .sub-content {
@@ -303,7 +303,7 @@ header a:hover {
 }
 @media (max-width: 500px) {
   .content .sub-content {
-    width: 100%;
+    width: 49%;
   }
 }
 .content .sub-content .btn {
@@ -343,7 +343,7 @@ footer {
 }
 .content .text-content {
   width: 700px;
-  height: 300px;
+  height: 20px;
 }
 .content .sub-content {
   display: flex;
